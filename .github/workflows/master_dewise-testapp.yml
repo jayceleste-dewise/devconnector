@@ -1,6 +1,6 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
-# sample
+
 name: Build and deploy Node.js app to Azure Web App - dewise-testapp
 
 on:
@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'dewise-testapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7831f434f6de43248bc81fd5c80a83d6 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a305c80698fe47a3a5744401d8d68e42 }}
         package: .
